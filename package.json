@@ -1,0 +1,28 @@
+{
+  "name": "electric-blue",
+  "version": "1.0.0",
+  "description": "UB ACM's styling library",
+  "entry": "index.js",
+  "main": "dist/electricblue.min.css",
+  "repository": "git@github.com:ubacm/electric-blue.git",
+  "author": "angus <angushtlam@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.1.4",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
