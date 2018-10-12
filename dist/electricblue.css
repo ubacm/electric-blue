@@ -3350,39 +3350,6 @@ there.
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
-a {
-  display: inline; }
-
-.button {
-  align-items: center;
-  box-shadow: 0 1px 4px #666;
-  display: inline-flex;
-  font-size: 14px;
-  font-weight: 400 !important;
-  letter-spacing: 1px;
-  transition: all 0.5s ease; }
-  .button:hover {
-    filter: saturate(200%); }
-
-.button-primary, .button_primary {
-  color: white !important;
-  background-color: #00a69c !important;
-  border-bottom: 5px solid #fff !important;
-  border-left: 1px solid #fff !important;
-  border-right: 1px solid #fff !important;
-  border-top: 1px solid #fff !important; }
-
-.button_secondary {
-  color: white !important;
-  background-color: #e56a54 !important;
-  border-bottom: 5px solid #fff !important;
-  border-left: 1px solid #fff !important;
-  border-right: 1px solid #fff !important;
-  border-top: 1px solid #fff !important; }
-
-.icon-button > i.fab, .icon_button > i.fab {
-  margin-right: 10px; }
-
 .component__checkins_list .header {
   align-items: center;
   display: flex;
@@ -3406,6 +3373,147 @@ a {
     flex: 1 1 0; }
   .component__checkins_list .member_entry > .username {
     font-style: italic; }
+
+.page__hack_night .sponsor_logo__title {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  width: 100%;
+  height: auto; }
+
+.page__hack_night .sponsor_logo__silver {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  max-width: 120px;
+  width: 100%;
+  height: auto; }
+
+.page__quick_updates > h1 {
+  color: #005bbb;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 0; }
+
+.page__quick_updates > h2 {
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 5px; }
+
+.page__quick_updates > p {
+  margin-bottom: 20px; }
+
+.googleCalendar {
+  text-align: center;
+  margin-bottom: 15px; }
+
+.page__schedule.past_events .event {
+  background: #666;
+  color: #e4e4e4; }
+  .page__schedule.past_events .event > .copy > .name {
+    color: #fff !important; }
+
+.page__schedule .event {
+  align-items: center;
+  border: 1px solid #666;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 20px;
+  position: relative;
+  margin-bottom: 20px; }
+  .page__schedule .event > .icon {
+    text-align: center;
+    display: block;
+    width: 60px; }
+    .page__schedule .event > .icon > img {
+      display: inline-block;
+      height: auto;
+      width: 100%; }
+  .page__schedule .event > .copy {
+    margin-left: 20px; }
+    .page__schedule .event > .copy > .name {
+      color: #005bbb;
+      font-size: 24px;
+      font-weight: 800; }
+      .page__schedule .event > .copy > .name.hack_night {
+        color: #ca2451; }
+    .page__schedule .event > .copy > .date {
+      font-weight: 800; }
+    .page__schedule .event > .copy > .description {
+      min-height: 72px; }
+
+.page__team .team_member > .name {
+  color: #005bbb;
+  font-weight: 800; }
+
+.page__team .team_member > .title {
+  font-weight: 800; }
+
+.page__team .team_member > img.profile {
+  border-radius: 6px;
+  width: 100%;
+  max-width: 200px;
+  height: auto; }
+
+a {
+  display: inline; }
+
+.button {
+  align-items: center;
+  box-shadow: 0 1px 4px #666;
+  border-bottom: 5px solid #e4e4e4 !important;
+  border-left: 1px solid #fff !important;
+  border-right: 1px solid #fff !important;
+  border-top: 1px solid #fff !important;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  margin: 1px;
+  transition: all 0.5s ease; }
+  .button:hover {
+    filter: saturate(200%); }
+
+.button-primary, .button_primary {
+  color: white !important;
+  background-color: #00a69c !important;
+  border-bottom: 5px solid #fff !important;
+  border-left: 1px solid #fff !important;
+  border-right: 1px solid #fff !important;
+  border-top: 1px solid #fff !important; }
+
+.button_secondary {
+  color: white !important;
+  background-color: #e56a54 !important;
+  border-bottom: 5px solid #fff !important;
+  border-left: 1px solid #fff !important;
+  border-right: 1px solid #fff !important;
+  border-top: 1px solid #fff !important; }
+
+.icon-button > i.fab, .icon_button > i.fab {
+  margin-right: 10px; }
+
+.partial__footer {
+  background: #005bbb;
+  color: #e4e4e4;
+  font-size: 12px;
+  padding: 20px 0; }
+  .partial__footer a {
+    color: #fff; }
+  .partial__footer .logos {
+    align-items: center;
+    display: flex;
+    overflow: hidden; }
+    .partial__footer .logos .logo {
+      display: inline-block;
+      width: 50px;
+      height: auto;
+      margin-right: 20px; }
+    .partial__footer .logos .logo_wide {
+      display: inline-block;
+      width: 160px;
+      height: auto;
+      margin-right: 20px; }
 
 .component__header {
   background: #fff;
@@ -3533,116 +3641,12 @@ a {
             font-weight: 800;
             margin-bottom: 0; } }
 
-.page__hack_night .sponsor_logo__title {
-  display: block;
-  margin: 0 auto;
-  max-width: 300px;
-  width: 100%;
-  height: auto; }
-
-.page__hack_night .sponsor_logo__silver {
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 20px;
-  max-width: 120px;
-  width: 100%;
-  height: auto; }
-
-.page__quick_updates > h1 {
-  color: #005bbb;
-  font-size: 22px;
-  font-weight: 800;
-  margin-bottom: 0; }
-
-.page__quick_updates > h2 {
-  font-weight: 800;
-  font-size: 16px;
-  margin-bottom: 5px; }
-
-.page__quick_updates > p {
-  margin-bottom: 20px; }
-
-.googleCalendar {
-  text-align: center;
-  margin-bottom: 15px; }
-
-.page__schedule.past_events .event {
-  background: #666;
-  color: #e4e4e4; }
-  .page__schedule.past_events .event > .copy > .name {
-    color: #fff !important; }
-
-.page__schedule .event {
-  align-items: center;
-  border: 1px solid #666;
-  border-radius: 6px;
-  display: flex;
-  padding: 10px 20px;
-  position: relative;
-  margin-bottom: 20px; }
-  .page__schedule .event > .icon {
-    text-align: center;
-    display: block;
-    width: 60px; }
-    .page__schedule .event > .icon > img {
-      display: inline-block;
-      height: auto;
-      width: 100%; }
-  .page__schedule .event > .copy {
-    margin-left: 20px; }
-    .page__schedule .event > .copy > .name {
-      color: #005bbb;
-      font-size: 24px;
-      font-weight: 800; }
-      .page__schedule .event > .copy > .name.hack_night {
-        color: #ca2451; }
-    .page__schedule .event > .copy > .date {
-      font-weight: 800; }
-    .page__schedule .event > .copy > .description {
-      min-height: 72px; }
-
-.page__team .team_member > .name {
-  color: #005bbb;
-  font-weight: 800; }
-
-.page__team .team_member > .title {
-  font-weight: 800; }
-
-.page__team .team_member > img.profile {
-  border-radius: 6px;
-  width: 100%;
-  max-width: 200px;
-  height: auto; }
-
-.partial__footer {
-  background: #005bbb;
-  color: #e4e4e4;
-  font-size: 12px;
-  padding: 20px 0; }
-  .partial__footer a {
-    color: #fff; }
-  .partial__footer .logos {
-    align-items: center;
-    display: flex;
-    overflow: hidden; }
-    .partial__footer .logos .logo {
-      display: inline-block;
-      width: 50px;
-      height: auto;
-      margin-right: 20px; }
-    .partial__footer .logos .logo_wide {
-      display: inline-block;
-      width: 160px;
-      height: auto;
-      margin-right: 20px; }
-
 .partial__hero {
   align-items: center;
   background: url("/assets/davis_new.jpg");
   background-size: cover;
   display: flex;
   height: 60vh;
-  padding-top: 50px;
   min-height: 600px; }
   .partial__hero.hack_night {
     background: url("/assets/hacknight/hero.jpg");

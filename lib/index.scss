@@ -1,19 +1,19 @@
-@import 'lib/skeleton';
+@import 'ext/skeleton';
 
-@import 'buttons';
 @import 'logos';
 @import 'variables';
 
 @import 'components/checkins_list';
-@import 'components/header';
 
 @import 'pages/hack_night';
 @import 'pages/quick_updates';
 @import 'pages/schedule';
 @import 'pages/team';
 
-@import 'partials/footer';
-@import 'partials/hero';
+@import 'buttons/styles';
+@import 'footer/styles';
+@import 'header/styles';
+@import 'hero/styles';
 
 * {
   box-sizing: border-box;

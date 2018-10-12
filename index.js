@@ -1,3 +1,3 @@
 import 'animate.css'
 import 'normalize.css'
-import './src/index.scss'
+import './lib/index.scss'

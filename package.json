@@ -8,18 +8,25 @@
   "author": "angus <angushtlam@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "storybook": "start-storybook --port 9001 --config-dir ./.storybook"
   },
   "dependencies": {
     "animate.css": "^3.7.0",
     "normalize.css": "^8.0.0"
   },
   "devDependencies": {
+    "@storybook/addon-knobs": "^3.4.10",
+    "@storybook/react": "^3.4.10",
+    "babel-core": "^6.26.3",
     "css-loader": "^1.0.0",
     "cssnano": "^4.1.4",
     "mini-css-extract-plugin": "^0.4.4",
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.20.2",
