@@ -3420,6 +3420,7 @@ a {
   .component__header > .container > .expansion.show_expansion {
     display: block; }
   .component__header > .container > .wrapper {
+    height: 44px;
     position: relative;
     z-index: 200; }
     .component__header > .container > .wrapper > .branding {

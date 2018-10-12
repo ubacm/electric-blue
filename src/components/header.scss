@@ -20,6 +20,7 @@ $nav-border-bottom: 6px;
     }
 
     > .wrapper {
+      height: $nav-height - $nav-border-bottom;
       position: relative;
       z-index: 200;
       
