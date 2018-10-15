@@ -3460,7 +3460,7 @@ a {
 
 .button {
   align-items: center;
-  box-shadow: 0 1px 4px #666;
+  box-shadow: 0 1px 1px #666;
   border-bottom: 5px solid #e4e4e4 !important;
   border-left: 1px solid #fff !important;
   border-right: 1px solid #fff !important;
@@ -3514,6 +3514,28 @@ a {
       width: 160px;
       height: auto;
       margin-right: 20px; }
+
+ul.grid_list {
+  display: block;
+  padding: 10px; }
+  ul.grid_list a {
+    text-decoration: none; }
+  ul.grid_list li {
+    display: inline-block;
+    padding: 10px;
+    width: 100%; }
+    @media (min-width: 600px) {
+      ul.grid_list li {
+        width: 50%; } }
+    @media (min-width: 900px) {
+      ul.grid_list li {
+        width: 33.33%; } }
+    ul.grid_list li .item {
+      background: #fefefe;
+      border-radius: 6px;
+      box-shadow: 0 1px 2px #666;
+      height: 115px;
+      padding: 20px; }
 
 .component__header {
   background: #fff;
@@ -3689,6 +3711,13 @@ a {
     .partial__hero > .container > .hero_copy > h2 {
       font-size: 24px;
       font-weight: 800; }
+
+.notification {
+  background: #005bbb;
+  border-radius: 6px;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 10px 20px; }
 
 * {
   box-sizing: border-box; }

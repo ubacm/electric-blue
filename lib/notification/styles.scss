@@ -1,0 +1,9 @@
+@import '../variables';
+
+.notification {
+  background: $accent-color;
+  border-radius: $rounded-corner;
+  color: $white-color;
+  margin-bottom: $spacing;
+  padding: $spacing / 2 $spacing;
+}
