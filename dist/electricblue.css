@@ -3524,18 +3524,15 @@ ul.grid_list {
     display: inline-block;
     padding: 10px;
     width: 100%; }
-    @media (min-width: 600px) {
-      ul.grid_list li {
-        width: 50%; } }
-    @media (min-width: 900px) {
+    @media (min-width: 850px) {
       ul.grid_list li {
         width: 33.33%; } }
     ul.grid_list li .item {
       background: #fefefe;
       border-radius: 6px;
       box-shadow: 0 1px 2px #666;
-      height: 115px;
-      padding: 20px; }
+      height: 70px;
+      padding: 10px; }
 
 .component__header {
   background: #fff;

@@ -13,11 +13,7 @@ ul.grid_list {
     padding: $spacing / 2;
     width: 100%;
     
-    @media (min-width: 600px) {
-      width: 50%;
-    }
-
-    @media (min-width: 900px) {
+    @media (min-width: 850px) {
       width: 33.33%;
     }
     
@@ -25,8 +21,8 @@ ul.grid_list {
       background:#fefefe;
       border-radius: $rounded-corner;
       box-shadow: 0 1px 2px $grey-color;
-      height: 115px;
-      padding: $spacing;
+      height: 70px;
+      padding: $spacing / 2;
     }
   }
 }
