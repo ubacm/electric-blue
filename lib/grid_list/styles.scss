@@ -26,8 +26,16 @@ ul.grid_list {
       border-left: 1px solid $white-color !important;
       border-right: 1px solid $white-color !important;
       border-top: 1px solid $white-color !important;
-      height: 70px;
+      height: 4.5em;
       padding: $spacing / 2;
+
+      div,
+      strong {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
     }
   }
 }

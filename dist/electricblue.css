@@ -3492,8 +3492,14 @@ ul.grid_list {
       border-left: 1px solid #fff !important;
       border-right: 1px solid #fff !important;
       border-top: 1px solid #fff !important;
-      height: 70px;
+      height: 4.5em;
       padding: 10px; }
+      ul.grid_list li .item div,
+      ul.grid_list li .item strong {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
 
 .component__header {
   background: #fff;
