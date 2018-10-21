@@ -5,7 +5,7 @@
   background: url('/assets/davis_new.jpg');
   background-size: cover;
   display: flex;
-  height: 60vh;
+  height: 70vh;
   min-height: 600px;
   
   &.hack_night {
@@ -64,14 +64,14 @@
     color: $white-color;
     text-align: center;
 
-    > h1 {
-      font-size: 80px;
-      font-weight: 400;
-    }
+    // > h1 {
+    //   font-size: 80px;
+    //   font-weight: 400;
+    // }
     
-    > h2 {
-      font-size: 24px;
-      font-weight: 800;
-    }
+    // > h2 {
+    //   font-size: 24px;
+    //   font-weight: 800;
+    // }
   }
 }

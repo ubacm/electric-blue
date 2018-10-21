@@ -1,6 +1,6 @@
 {
   "name": "electric-blue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UB ACM's styling library",
   "entry": "index.js",
   "main": "dist/electricblue.min.css",

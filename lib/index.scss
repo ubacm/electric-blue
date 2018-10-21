@@ -1,6 +1,5 @@
 @import 'ext/skeleton';
 
-@import 'logos';
 @import 'variables';
 
 @import 'components/checkins_list';
@@ -17,6 +16,7 @@
 @import 'header/styles';
 @import 'hero/styles';
 @import 'notification/styles';
+@import 'typography/styles';
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
 
@@ -32,7 +32,6 @@ body {
 
 body {
   background-color: $white-color;
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Helvetica', 'Arial', sans-serif;
 }
 
 .small_header {
